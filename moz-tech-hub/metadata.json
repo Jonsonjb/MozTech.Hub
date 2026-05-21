@@ -1,0 +1,6 @@
+{
+  "name": "Moz Tech Hub",
+  "description": "Unified digital ecosystem integrating Netek (Classifieds), KayaMoz (Real Estate), FixMoz (Maintenance Services), and Jonson JB's personal Blog, featuring live M-Pesa / e-Mola simulation and revenue tracking",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

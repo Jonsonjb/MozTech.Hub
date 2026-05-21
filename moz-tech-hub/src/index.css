@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;850;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-gold-400: #E5C158;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B3922E;
+  --color-dark-bg: #0A0A0A;
+  --color-dark-panel: #121212;
+  --color-dark-border: #404040;
+}
+
+/* Base customized layout variables for Bold Typography */
+body {
+  font-family: var(--font-sans);
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+/* Custom editorial typography styles */
+.editorial-hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 8vw, 6.5rem);
+  line-height: 0.85;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.editorial-section-title {
+  font-family: var(--font-display);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #D4AF37;
+}
+
+.editorial-card {
+  background-color: #121212;
+  border: 1px solid #404040;
+  transition: all 0.2s ease-in-out;
+}
+
+.editorial-card:hover {
+  border-color: #D4AF37;
+}
+
+.mono-value {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  color: #22C55E;
+}
+
+/* Smooth scrollbar for dark layout */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+
