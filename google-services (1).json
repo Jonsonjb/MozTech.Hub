@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144926941157",
+    "project_id": "moztechhub",
+    "storage_bucket": "moztechhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144926941157:android:a403116ca81cfb92d9990c",
+        "android_client_info": {
+          "package_name": "moztech.hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPgDhtj_UyjocIOKP2-W-HsUSyV5NQaIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
